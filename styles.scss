@@ -1,0 +1,36 @@
+$primaryColor: rgb(83, 126, 146);
+
+body{
+    font-family: Arial, sans-serif;
+    background: $primaryColor;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+svg{
+    background: white;
+    box-shadow: 0 0 2rem;
+    .bar{
+        fill: $primaryColor
+    }
+    .bar:hover{
+        fill: white;
+    }
+}
+
+#title{
+    font-size: 2.5rem;
+} 
+
+#tooltip{
+    font-size: 1.5rem;
+    margin-top: 0.8rem;
+    color: white;
+}
+
+g{
+    font-size: 0.7rem;
+}
